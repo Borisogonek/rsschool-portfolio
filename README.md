@@ -1,1 +1,1 @@
-https://Borisogonek.github.io/rsschool-portfolio/
+https://borisogonek.github.io/rsschool-portfolio/
