@@ -1,1 +1,1 @@
-https://Borisogonek.github.io/rsschool-portfolio/
+https://rolling-scopes-school.github.io/Borisogonek-JSFEPRESCHOOL/portfolio/
