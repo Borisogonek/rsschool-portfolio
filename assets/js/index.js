@@ -1,6 +1,8 @@
-console.log ("Верстка валидная +10");
-console.log ("Верстка семантическая +20");
-console.log ("Верстка соответствует макету +48");
-console.log ("Требования к CSS +12");
-console.log ("Интерактивность, реализуемая через css +20");
-console.log ("Всего 100 баллов");
+$(document).ready(function() {
+    $('.burger').click(function(event) {
+        $('.burger,.header_menu').toggleClass('active');
+        
+    });
+});
+
+
