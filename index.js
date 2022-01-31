@@ -22,11 +22,7 @@ const portfolioImages = document.querySelectorAll('.photos_img');
 
 const portfolioBtns = document.querySelector('.button');
 
-const eng = document.querySelector('.lang_en');
 
-const rus = document.querySelector('.lang_ru');
-
-const textTranslate = document.querySelectorAll('[data-i18]');
 
 const seasons = ['winter', 'spring', 'summer', 'autumn'];
 
