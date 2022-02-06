@@ -162,10 +162,12 @@ img {
 
  .language {
      width: 75px;
-     height: 90px;
+     height: 50px;
 display: flex;
 justify-content: space-between;
-padding-left: 30px;
+margin-left: 30px;
+padding: 0px;
+background: none;
 
  }
 
@@ -177,7 +179,12 @@ padding-left: 30px;
      font-size: 20px;
      line-height: 2.5;
      color: #FFFFFF;
-     padding-top: 20px;
+     margin-top: 20px;
+    padding: 0px;
+     border: none;
+     background: none;
+     
+     
 
  }
 
@@ -194,7 +201,10 @@ padding-left: 30px;
     font-size: 20px;
     line-height: 2.5;
     color: #FFFFFF;
-    padding-top: 20px;
+    margin-top: 20px;
+    border: none;
+    padding: 0px;
+    background: none;
  }
 
  .lang_en:hover {
@@ -356,7 +366,7 @@ font-size: 18px;
 line-height: 2;
 color: #FFFFFF;
 padding-top: 20px;
-padding-bottom: 10px;
+padding-bottom: 11px;
 }
 
 
@@ -410,7 +420,7 @@ padding-bottom: 10px;
       margin: 0 2.5px 0;  
 }
 
-.btn11 {
+.btn2 {
     width: 220px;
       height: 55px;
       text-align: center;
@@ -421,8 +431,8 @@ padding-bottom: 10px;
       border: 2px solid #BDAE82;
       box-sizing: border-box;
       border-radius: 0px;
-      background-color: #BDAE82;
-      color: black;
+      background-color: black;
+      color: #BDAE82;
       font-family: Inter;
       font-style: normal;
       font-weight: normal;
@@ -431,12 +441,64 @@ padding-bottom: 10px;
       margin: 0 2.5px 0;  
 }
 
+.btn3 {
+    width: 220px;
+      height: 55px;
+      text-align: center;
+      align-items: center;
+      text-decoration: none;
+      display: flex;
+      justify-content: center;
+      border: 2px solid #BDAE82;
+      box-sizing: border-box;
+      border-radius: 0px;
+      background-color: black;
+      color: #BDAE82;
+      font-family: Inter;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 20px;
+      line-height: 2;
+      margin: 0 2.5px 0;  
+}
+
+.btn4 {
+    width: 220px;
+    height: 55px;
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    border: 2px solid #BDAE82;
+    box-sizing: border-box;
+    border-radius: 0px;
+    background-color: black;
+    color: #BDAE82;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 2;
+    margin: 0 2.5px 0;  
+}
+
 .btn1:hover {
     color: #FFFFFF;
     transition: all 0.3s ease 0s;
 }
 
-.btn11:hover {
+.btn2:hover {
+    color: #FFFFFF;
+    transition: all 0.3s ease 0s;
+}
+
+.btn3:hover {
+    color: #FFFFFF;
+    transition: all 0.3s ease 0s;
+}
+
+.btn4:hover {
     color: #FFFFFF;
     transition: all 0.3s ease 0s;
 }
@@ -752,6 +814,36 @@ color: #FFFFFF;
     height: 50px;
 }
 
+
+/*анимация для портфолио*/
+
+.btn1.active {
+    background-color: #BDAE82;
+    color: black;
+    transition: all 0.7s ease 0s;
+}
+
+.btn2.active {
+    background-color: #BDAE82;
+    color: black;
+    transition: all 0.7s ease 0s;
+}
+ 
+
+.btn3.active {
+    background-color: #BDAE82;
+    color: black;
+    transition: all 0.7s ease 0s;
+}
+
+.btn4.active {
+    background-color: #BDAE82;
+    color: black;
+    transition: all 0.7s ease 0s;
+}
+
+
+
 @media (max-width: 768px) {
 
     .header_menu {
@@ -946,7 +1038,7 @@ color: #FFFFFF;
            padding-bottom: 71px;
        }
 
-       .btn1, .btn11 {
+       .btn1, .btn2, .btn3, .btn4 {
            margin-top: 10px;
        }
 
